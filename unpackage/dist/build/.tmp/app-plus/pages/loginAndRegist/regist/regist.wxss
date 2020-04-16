@@ -1,0 +1,121 @@
+
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.logo {
+	height: 144rpx;
+	width: 208rpx;
+	margin-top: 48rpx;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 52rpx;
+}
+.phone{
+	width: 550rpx;
+	height: 76rpx;
+	font-size: 36rpx;
+	color: #0d0d0d;
+	border-bottom: 2rpx solid #e6e6e6;
+	margin-bottom: 12rpx;
+}
+.codeWrap{
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-bottom: 12rpx;
+}
+.code{
+	border-bottom: 2rpx solid #e6e6e6;
+	width: 550rpx;
+	height: 76rpx;
+	font-size: 36rpx;
+}
+.place{
+	font-size: 32rpx;
+	color: #808080;
+}
+.getCode{
+	width: 160rpx;
+	height: 56rpx;
+	background-color: #00ADEF;
+	color: white;
+	font-size: 24rpx;
+	border-radius: 0;
+	text-align: center;
+	line-height: 56rpx;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 0;
+}
+uni-button[disabled]:not([type]){
+	background-color: #7fd6f7;
+	color: white;
+}
+.passWrap{
+	margin-bottom: 44rpx;
+	position: relative;
+}
+.password{
+	width: 550rpx;
+	height: 76rpx;
+	font-size: 36rpx;
+	border-bottom: 2rpx solid #e6e6e6;
+}
+.regist{
+	width: 570rpx;
+	height: 88rpx;
+	line-height: 88rpx;
+	border-radius: 44rpx;
+	background: #007AFF;
+	color: white;
+	margin-bottom: 20rpx;
+}
+.agreement_wrap{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.read_aggre{
+	font-size: 24rpx;
+	color: #808080;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	line-height: 24rpx;
+}
+.choose_true{
+	width: 20rpx;
+	height: 20rpx;
+	color: white;
+	background: #00adef;
+	line-height: 20rpx;
+	text-align: center;
+	margin-right: 10rpx;
+	font-size: 24rpx;
+	border: 2rpx solid #00adef;
+}
+.choose_false{
+	width: 20rpx;
+	height: 20rpx;
+	color: white;
+	border: 2rpx solid #808080;
+	line-height: 20rpx;
+	text-align: center;
+	font-size: 24rpx;
+	margin-right: 10rpx;
+}
+

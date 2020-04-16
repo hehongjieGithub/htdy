@@ -1,0 +1,113 @@
+
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.logo{
+	width: 168rpx;
+	height: 168rpx;
+	margin: 64rpx auto;
+	margin-bottom: 20rpx;
+}
+.username{
+	font-size: 36rpx;
+	color: #0d0d0d;
+	margin-bottom: 104rpx;
+}
+.input_wrap{
+	width: 550rpx;
+	height: 72rpx;
+	margin: 0 auto;
+	border-bottom: 2rpx solid #e6e6e6;
+	position: relative;
+	margin-bottom: 88rpx;
+}
+.password{
+	width: 380rpx;
+	height: 40rpx;
+	font-size: 32rpx;
+	border-right: 2rpx solid #e6e6e6;
+	position: absolute;
+	left: 0;
+	top: 14rpx;
+}
+.place{
+	font-size: 32rpx;
+	color: #808080;
+}
+.password_isApprence{
+	width: 50rpx;
+	height: 40rpx;
+	position: absolute;
+	right: 170rpx;
+	top: 20rpx;
+	z-index: 20;
+}
+.goForget{
+	font-size: 32rpx;
+	position: absolute;
+	right: 0;
+	top: 14rpx;
+	z-index: 20;
+}
+.loginBtn{
+	width: 570rpx;
+	height: 88rpx;
+	line-height: 88rpx;
+	border-radius: 44rpx;
+	background: #00ADEF;
+	color: white;
+	margin-bottom: 20rpx;
+}
+button[disabled]:not([type]){
+	background-color: #7fd6f7;
+	color: white;
+}
+.agreement_wrap{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.read_aggre{
+	font-size: 24rpx;
+	color: #808080;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	line-height: 24rpx;
+}
+.choose_true{
+	width: 20rpx;
+	height: 20rpx;
+	color: white;
+	background: #00adef;
+	line-height: 20rpx;
+	text-align: center;
+	margin-right: 10rpx;
+	font-size: 24rpx;
+	border: 2rpx solid #00adef;
+	font-family: 宋体;
+}
+.choose_false{
+	width: 20rpx;
+	height: 20rpx;
+	color: white;
+	border: 2rpx solid #808080;
+	line-height: 20rpx;
+	text-align: center;
+	font-size: 24rpx;
+	margin-right: 10rpx;
+	font-family: 宋体;
+}
+
